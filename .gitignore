@@ -606,12 +606,10 @@ fabric.properties
 bin/
 obj/
 .idea/
-*.DS_Store
 src/*/obj/
 src/*/bin/
 src/.idea/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-_site/
-api/
+.vscode/
