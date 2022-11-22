@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IsExternalInit" Version="1.0.*" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solnet.Programs\Solnet.Programs.csproj" />
+    <ProjectReference Include="..\Solnet.Rpc\Solnet.Rpc.csproj" />
+    <ProjectReference Include="..\Solnet.Wallet\Solnet.Wallet.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\SharedBuildProperties.props" />
+</Project>

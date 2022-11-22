@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A651E8AD-703B-4B21-B344-68F5F09CDA67}"
+	ProjectSection(SolutionItems) = preProject
+		SharedBuildProperties.props = SharedBuildProperties.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solnet.Rpc", "src\Solnet.Rpc\Solnet.Rpc.csproj", "{EF386255-1080-407E-84FA-3D11E8D5E6FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solnet.Wallet", "src\Solnet.Wallet\Solnet.Wallet.csproj", "{28EBD3B0-780D-4C6D-B68F-A3D67540F07C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solnet.Programs", "src\Solnet.Programs\Solnet.Programs.csproj", "{9CF2C42F-276D-4EF7-9258-E31C753B667B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solnet.KeyStore", "src\Solnet.KeyStore\Solnet.KeyStore.csproj", "{AC84C597-8EBC-412D-9D1B-562CE7F2EF7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solnet.Extensions", "src\Solnet.Extensions\Solnet.Extensions.csproj", "{CEE6BD44-ADAD-4F42-9238-61957CF2416B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF386255-1080-407E-84FA-3D11E8D5E6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF386255-1080-407E-84FA-3D11E8D5E6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF386255-1080-407E-84FA-3D11E8D5E6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF386255-1080-407E-84FA-3D11E8D5E6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EBD3B0-780D-4C6D-B68F-A3D67540F07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EBD3B0-780D-4C6D-B68F-A3D67540F07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EBD3B0-780D-4C6D-B68F-A3D67540F07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EBD3B0-780D-4C6D-B68F-A3D67540F07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF2C42F-276D-4EF7-9258-E31C753B667B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF2C42F-276D-4EF7-9258-E31C753B667B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF2C42F-276D-4EF7-9258-E31C753B667B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF2C42F-276D-4EF7-9258-E31C753B667B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC84C597-8EBC-412D-9D1B-562CE7F2EF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC84C597-8EBC-412D-9D1B-562CE7F2EF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC84C597-8EBC-412D-9D1B-562CE7F2EF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC84C597-8EBC-412D-9D1B-562CE7F2EF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE6BD44-ADAD-4F42-9238-61957CF2416B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE6BD44-ADAD-4F42-9238-61957CF2416B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE6BD44-ADAD-4F42-9238-61957CF2416B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE6BD44-ADAD-4F42-9238-61957CF2416B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE3287F3-8CBC-4793-8CC9-A1AE4B8266ED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/bifrosttitan/SolnetNET4</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IsExternalInit" Version="1.0.*" PrivateAssets="all" />
+    <PackageReference Include="IndexRange" Version="1.0.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\TokenSwap\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solnet.Rpc\Solnet.Rpc.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\SharedBuildProperties.props" />
+</Project>
