@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Solana.Extensions</PackageId>
+    <Title>Solana .NET 2.0 Standard Extensions Library</Title>
   </PropertyGroup>
 
   <ItemGroup>

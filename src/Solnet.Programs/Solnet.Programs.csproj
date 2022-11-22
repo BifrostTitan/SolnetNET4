@@ -6,6 +6,10 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/bifrosttitan/SolnetNET4</RepositoryUrl>
+    <Title>Solana .NET 2.0 Standard Programs Library</Title>
+    <PackageId>Solana.Programs</PackageId>
+    <PackageProjectUrl>https://github.com/bifrosttitan/SolnetNET4</PackageProjectUrl>
+    <Description>Solana .NET 2.0 Standard Programs Library</Description>
   </PropertyGroup>
 
   <ItemGroup>

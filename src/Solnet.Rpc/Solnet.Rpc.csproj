@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Solana.NET.Rpc</PackageId>
+    <PackageId>Solana.Rpc</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>.NET 2.0 Standard variant of the Solnet SDK</Description>
     <PackageIcon>icon.png</PackageIcon>
+    <Title>Solana .NET 2.0 Standard Rpc Library</Title>
   </PropertyGroup>
 
   <ItemGroup>

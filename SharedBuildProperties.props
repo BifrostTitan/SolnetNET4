@@ -6,12 +6,12 @@
     <Copyright>Copyright 2022 &#169; BlockMountain</Copyright>
     <Authors>BlockMountain, BifrostTitan</Authors>
     <PublisherName>BlockMountain, BifrostTitan</PublisherName>
-    <RepositoryUrl>https://github.com/bifrosttitan/Solnet.NET4.SDK</RepositoryUrl>
+    <RepositoryUrl>https://github.com/bifrosttitan/SolnetNET4</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <LangVersion>latest</LangVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageDescription>Solnet c# SDK is Solana's .NET standard 2.0 integration library.</PackageDescription>
+    <PackageDescription>Solnet c# NET4 SDK is Solana's .NET standard 2.0 integration library.</PackageDescription>
     <PackageTags>solana;solnet;sol;net2.0;spl</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
